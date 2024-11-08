@@ -6,11 +6,9 @@ This role consists of two parts:
 2. Download various shell plugins/tools
 
    - fzf
-   - kubectl-aliases
    - zsh-autosuggestions
    - fast-syntax-highlightning
    - zsh-completions
-   - Powerlevel10k
    - Tmux tpm
 
 ## Test

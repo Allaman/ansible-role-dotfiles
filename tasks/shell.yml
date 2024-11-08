@@ -11,11 +11,6 @@
     repo: https://github.com/tmux-plugins/tpm
     dest: ~/.tmux/plugins/tpm
 
-- name: Download kubectl aliases
-  get_url:
-    url: https://raw.githubusercontent.com/ahmetb/kubectl-alias/master/.kubectl_aliases
-    dest: ~/.shell/kubectl_aliases
-
 - name: Download fzf
   git:
     clone: true
@@ -50,12 +45,6 @@
     clone: true
     repo: https://github.com/zsh-users/zsh-completions
     dest: ~/.shell/zsh-completions
-
-- name: Install powerlevel10k
-  git:
-    clone: true
-    repo: https://github.com/romkatv/powerlevel10k.git
-    dest: ~/.shell/powerlevel10k
 
 - name: Clone NeoVim config
   git:
